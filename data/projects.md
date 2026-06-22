@@ -1,6 +1,6 @@
 # Projects
 
-## Intern
+## Sigmoid (Feb 2024 - Current)
 
 ### Cloud Meter — Cloud Cost Optimization Platform
 - Built a multi-cloud data ingestion pipeline using FastAPI and PostgreSQL, integrating AWS, Azure, and GCP billing/utilization APIs to process 10M+ monthly records with Celery task scheduling.
@@ -13,7 +13,6 @@
 - Integrated MLflow for experiment tracking, model versioning, and performance monitoring.
 - Enabled Databricks Asset Bundle (DAB) integration to orchestrate and deploy workflows, reducing deployment time by 50%.
 
-## Full Time
 
 ### Sanofi (Jan–Feb 2025) — Scalable Airflow Orchestration on Kubernetes (EKS)
 - Deployed and configured a production-grade Apache Airflow instance on Amazon EKS, including VPCs, subnets, NAT Gateways, and Internet Gateway.
@@ -58,3 +57,11 @@
 - Developed multimodal support capabilities using OCR and vision-model analysis to extract context from screenshots and images before running grounded retrieval workflows.
 - Built a semantic GPT caching layer using embedding-based similarity to reuse validated responses for paraphrased and recurring support queries.
 - Established AI evaluation workflows covering routing accuracy, retrieval relevance, groundedness, faithfulness, citation quality, and human rubric-based review.
+
+
+## TestYantra (Mar 2023 - Feb 2024)
+- Developed an HR management application using Django and Django REST Framework, building RESTful APIs and a student–company matching and filtering system.
+- Implemented JWT-based authentication and role-based access control for administrators, companies, and students.
+- Designed a relational PostgreSQL database schema and optimized queries for efficient data retrieval.
+- Integrated Redis caching and Celery to support background processing and scheduled tasks.
+- Wrote automated test cases using pytest and containerized the application with Docker.
