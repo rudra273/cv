@@ -52,4 +52,9 @@
 - Designed Azure Data Factory pipelines integrated with Databricks and a multi-environment ADF migration pipeline for consistent promotions across Dev/QA/Prod.
 
 ## HPE (Nov 2025 — )
-- (Details to be added)
+- Engineered a multi-agent AI assistant for HPE Support Engineers using LangGraph, with specialized agents for technical troubleshooting, knowledge retrieval, case workflows, and intent-based routing.
+- Designed a grounded, multi-source RAG architecture integrating Coveo enterprise search, self-hosted vector search, and structured support APIs to generate source-backed responses with citations.
+- Implemented tool-driven agent workflows that require evidence retrieval before answer generation, reducing hallucination risk in customer-impacting support decisions.
+- Developed multimodal support capabilities using OCR and vision-model analysis to extract context from screenshots and images before running grounded retrieval workflows.
+- Built a semantic GPT caching layer using embedding-based similarity to reuse validated responses for paraphrased and recurring support queries.
+- Established AI evaluation workflows covering routing accuracy, retrieval relevance, groundedness, faithfulness, citation quality, and human rubric-based review.
