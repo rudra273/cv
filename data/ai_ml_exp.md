@@ -3,17 +3,19 @@
 ## Sigmoid
 *Feb 2024 – Present*
 
-- Engineer a multi-agent AI assistant for enterprise support engineers using LangGraph, orchestrating specialized agents for technical troubleshooting, knowledge retrieval, case workflows, and intent-based routing.
-- Design a grounded, multi-source Retrieval-Augmented Generation (RAG) architecture that combines Coveo enterprise search, self-hosted vector search, and structured support APIs to deliver source-backed answers with citations.
-- Architect end-to-end Amazon SageMaker Pipelines, automating data preprocessing, XGBoost training, and model deployment through custom Docker containers.
-- Developed a SQL rule generator using Azure AI Foundry’s GPT-4o-mini to create context-aware validation rules based on schema metadata and profiling results, backed by ChromaDB as the vector store.
-- Build a SKU-level freight forecasting framework on Databricks, backtesting seven statistical and machine-learning models across 172+ SKUs using 24 months of data and wMAPE-based champion selection.
-- Developed a Python-based multi-cloud billing ingestion module using FastAPI, PostgreSQL, and Celery to fetch, transform (via custom SQL), and store 10M+ monthly records from AWS, Azure, and GCP cost and usage APIs.
+- Engineer a multi-agent AI assistant using LangGraph and LangChain skills, orchestrating specialized agents for troubleshooting, knowledge retrieval, case workflows, and intent-based routing.
+- Design grounded RAG with Coveo, vector search, and support APIs; apply Deep Agents to analyze user feedback and iteratively refine skill prompts, improving response citation quality.
+- Architect end-to-end Amazon SageMaker Pipelines for preprocessing, XGBoost training, and deployment of MLflow-registered champion models through custom Docker containers.
+- Implement MLflow experiment tracking, metric logging, and model versioning with an F1-score threshold of 0.85 for champion selection and a ground-truth observability pipeline to monitor prediction drift.
+- Build a SKU-level freight forecasting framework on Databricks, using Ray to parallelize training of seven machine-learning models across 172+ SKUs and select champion models based on wMAPE.
+- Develop a SQL rule generator using Azure AI Foundry's GPT-4o-mini to create context-aware validation rules from schema metadata and profiling results, backed by ChromaDB for vector retrieval.
+- Build a multi-cloud billing ingestion module using FastAPI, PostgreSQL, and Celery to fetch, transform, and store 10M+ monthly cost records from AWS, Azure, and GCP usage APIs.
 - Deliver a cloud-native data platform with a FastAPI backend on Kubernetes, Databricks-integrated Azure Data Factory pipelines, and Helm-based Azure DevOps CI/CD across development, QA, and production environments.
 
 ## TestYantra
 *Mar 2023 – Feb 2024*
 
-- Developed RESTful backend services using Django REST Framework, including configurable matching and filtering workflows.
-- Implemented JSON Web Token (JWT) authentication and role-based access control for multiple user roles.
-- Optimized PostgreSQL data access and integrated Redis, Celery, pytest, and Docker for caching, background processing, automated testing, and containerized delivery.
+- Developed and maintained RESTful APIs using FastAPI and SQLAlchemy ORM, powering a React-based internal tool with configurable matching, filtering, and workflow management endpoints.
+- Implemented JWT-based authentication and role-based access control, managing secure session handling across multiple user roles and permission levels.
+- Optimized PostgreSQL query performance through indexing and query restructuring, and containerized the full application stack using Docker for consistent development and deployment environments.
+- Integrated Redis for response caching and Celery for asynchronous background task processing, improving API responsiveness for long-running workflow operations.

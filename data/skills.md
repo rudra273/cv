@@ -1,7 +1,7 @@
-programming Core - Python, JavaScript, Data Structures and Algorithms (DSA), Linux, Git
+Programming Core - Python, JavaScript, SQL, DSA, Linux, Git, GitHub
 
-agenttic ai & ML - Langchain, Langraph, Langfuse, Sagemaker, Ray, Databricks, vector db, Rag
+Agentic AI & ML - LangChain, LangGraph, Langfuse, SageMaker, Ray, Databricks, ChromaDB, RAG
 
-mlops & cloud - Mlflow, Zen ML, AWS, Azure, Docker, Kubernetes, Helm, Github, Azure devops
+MLOps & Cloud - MLflow, ZenML, AWS, Azure, Docker, Kubernetes, Helm, Azure DevOps
 
-webdev and database - FastAPI, Django, Next JS, Postgres, MongoDB
+Web Dev & Database - FastAPI, Django, Next.js, PostgreSQL, MongoDB
